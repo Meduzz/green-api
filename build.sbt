@@ -1,6 +1,6 @@
 name := "green-api"
 
-version := "20190519"
+version := "20190526"
 
 scalaVersion := "2.12.8"
 

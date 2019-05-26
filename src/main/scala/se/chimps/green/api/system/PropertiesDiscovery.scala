@@ -4,7 +4,7 @@ import se.chimps.green.spi.Discovery
 
 class PropertiesDiscovery extends Discovery {
 	override def lookup(id:String):Seq[(String, Int)] = {
-		val prop = System.getProperty("green.cluster.join")
+		val prop = System.getenv("JOIN")
 
 			if (prop != null) {
 				prop.split(",")
